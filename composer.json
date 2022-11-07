@@ -1,0 +1,22 @@
+{
+    "name": "marcolamr/otp-generator",
+    "description": "OTP Generator with PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Roberto",
+            "email": "marcola.mr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}
